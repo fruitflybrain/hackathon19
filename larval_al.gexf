@@ -1,0 +1,2804 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="edge" mode="static">
+      <attribute id="18" title="networkx_key" type="integer" />
+    </attributes>
+    <attributes class="node" mode="static">
+      <attribute id="0" title="a" type="double" />
+      <attribute id="1" title="b" type="double" />
+      <attribute id="2" title="name" type="string" />
+      <attribute id="3" title="h" type="double" />
+      <attribute id="4" title="m" type="double" />
+      <attribute id="5" title="class" type="string" />
+      <attribute id="6" title="n" type="double" />
+      <attribute id="7" title="bf" type="double" />
+      <attribute id="8" title="x2" type="double" />
+      <attribute id="9" title="x0" type="double" />
+      <attribute id="10" title="x1" type="double" />
+      <attribute id="11" title="port_io" type="string" />
+      <attribute id="12" title="port_type" type="string" />
+      <attribute id="13" title="selector" type="string" />
+      <attribute id="14" title="reverse" type="double" />
+      <attribute id="15" title="ar" type="double" />
+      <attribute id="16" title="ad" type="double" />
+      <attribute id="17" title="gmax" type="double" />
+    </attributes>
+    <nodes>
+      <node id="74a_left_OSN_0_bsg" label="74a_left_OSN_0_bsg">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="74a_left_OSN_0_bsg" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="85c_left_OSN_0_otp" label="85c_left_OSN_0_otp">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+          <attvalue for="2" value="85c_left_OSN_0_otp" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="5" value="FruitFlyOdorReceptorModel" />
+        </attvalues>
+      </node>
+      <node id="1a_left_OSN_0_otp" label="1a_left_OSN_0_otp">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+          <attvalue for="2" value="1a_left_OSN_0_otp" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="5" value="FruitFlyOdorReceptorModel" />
+        </attvalues>
+      </node>
+      <node id="74a_left_PN72" label="74a_left_PN72">
+        <attvalues>
+          <attvalue for="5" value="Port" />
+          <attvalue for="11" value="out" />
+          <attvalue for="12" value="spike" />
+          <attvalue for="2" value="74a_left_PNport" />
+          <attvalue for="13" value="/al/out/spk/72" />
+        </attvalues>
+      </node>
+      <node id="63a_left_OSN_0_bsg-63a_left_PN" label="63a_left_OSN_0_bsg-63a_left_PN">
+        <attvalues>
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="1100.0" />
+          <attvalue for="16" value="190.0" />
+          <attvalue for="17" value="0.2001" />
+          <attvalue for="5" value="AlphaSynapsePostBiNorm" />
+          <attvalue for="2" value="63a_left_OSN_0_bsg-63a_left_PN" />
+        </attvalues>
+      </node>
+      <node id="94a_&amp;_94b_left_OSN_0_bsg" label="94a_&amp;_94b_left_OSN_0_bsg">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="94a_&amp;_94b_left_OSN_0_bsg" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="24a_right_OSN_0_bsg" label="24a_right_OSN_0_bsg">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="24a_right_OSN_0_bsg" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="49a_right_OSN_0_otp" label="49a_right_OSN_0_otp">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+          <attvalue for="2" value="49a_right_OSN_0_otp" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="5" value="FruitFlyOdorReceptorModel" />
+        </attvalues>
+      </node>
+      <node id="59a_left_OSN_0_otp" label="59a_left_OSN_0_otp">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+          <attvalue for="2" value="59a_left_OSN_0_otp" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="5" value="FruitFlyOdorReceptorModel" />
+        </attvalues>
+      </node>
+      <node id="13a_right_OSN_0_bsg-13a_right_PN" label="13a_right_OSN_0_bsg-13a_right_PN">
+        <attvalues>
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="1100.0" />
+          <attvalue for="16" value="190.0" />
+          <attvalue for="17" value="0.2001" />
+          <attvalue for="5" value="AlphaSynapsePostBiNorm" />
+          <attvalue for="2" value="13a_right_OSN_0_bsg-13a_right_PN" />
+        </attvalues>
+      </node>
+      <node id="45b_right_OSN_0_otp" label="45b_right_OSN_0_otp">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+          <attvalue for="2" value="45b_right_OSN_0_otp" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="5" value="FruitFlyOdorReceptorModel" />
+        </attvalues>
+      </node>
+      <node id="74a_right_OSN_0_bsg" label="74a_right_OSN_0_bsg">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="74a_right_OSN_0_bsg" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="35a_left_OSN_0_bsg-35a_left_PN" label="35a_left_OSN_0_bsg-35a_left_PN">
+        <attvalues>
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="1100.0" />
+          <attvalue for="16" value="190.0" />
+          <attvalue for="17" value="0.2001" />
+          <attvalue for="5" value="AlphaSynapsePostBiNorm" />
+          <attvalue for="2" value="35a_left_OSN_0_bsg-35a_left_PN" />
+        </attvalues>
+      </node>
+      <node id="82a_left_PN36" label="82a_left_PN36">
+        <attvalues>
+          <attvalue for="5" value="Port" />
+          <attvalue for="11" value="out" />
+          <attvalue for="12" value="spike" />
+          <attvalue for="2" value="82a_left_PNport" />
+          <attvalue for="13" value="/al/out/spk/36" />
+        </attvalues>
+      </node>
+      <node id="63a_left_OSN_0_otp" label="63a_left_OSN_0_otp">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+          <attvalue for="2" value="63a_left_OSN_0_otp" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="5" value="FruitFlyOdorReceptorModel" />
+        </attvalues>
+      </node>
+      <node id="30a_right_OSN_0_bsg-30a_right_PN" label="30a_right_OSN_0_bsg-30a_right_PN">
+        <attvalues>
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="1100.0" />
+          <attvalue for="16" value="190.0" />
+          <attvalue for="17" value="0.2001" />
+          <attvalue for="5" value="AlphaSynapsePostBiNorm" />
+          <attvalue for="2" value="30a_right_OSN_0_bsg-30a_right_PN" />
+        </attvalues>
+      </node>
+      <node id="45a_left_OSN_0_bsg" label="45a_left_OSN_0_bsg">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="45a_left_OSN_0_bsg" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="45a_right_OSN_0_otp" label="45a_right_OSN_0_otp">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+          <attvalue for="2" value="45a_right_OSN_0_otp" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="5" value="FruitFlyOdorReceptorModel" />
+        </attvalues>
+      </node>
+      <node id="45b_right_PN62" label="45b_right_PN62">
+        <attvalues>
+          <attvalue for="5" value="Port" />
+          <attvalue for="11" value="out" />
+          <attvalue for="12" value="spike" />
+          <attvalue for="2" value="45b_right_PNport" />
+          <attvalue for="13" value="/al/out/spk/62" />
+        </attvalues>
+      </node>
+      <node id="67b_right_PN18" label="67b_right_PN18">
+        <attvalues>
+          <attvalue for="5" value="Port" />
+          <attvalue for="11" value="out" />
+          <attvalue for="12" value="spike" />
+          <attvalue for="2" value="67b_right_PNport" />
+          <attvalue for="13" value="/al/out/spk/18" />
+        </attvalues>
+      </node>
+      <node id="42b_left_OSN_0_otp" label="42b_left_OSN_0_otp">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+          <attvalue for="2" value="42b_left_OSN_0_otp" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="5" value="FruitFlyOdorReceptorModel" />
+        </attvalues>
+      </node>
+      <node id="74a_left_OSN_0_bsg-74a_left_PN" label="74a_left_OSN_0_bsg-74a_left_PN">
+        <attvalues>
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="1100.0" />
+          <attvalue for="16" value="190.0" />
+          <attvalue for="17" value="0.2001" />
+          <attvalue for="5" value="AlphaSynapsePostBiNorm" />
+          <attvalue for="2" value="74a_left_OSN_0_bsg-74a_left_PN" />
+        </attvalues>
+      </node>
+      <node id="63a_right_OSN_0_otp" label="63a_right_OSN_0_otp">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+          <attvalue for="2" value="63a_right_OSN_0_otp" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="5" value="FruitFlyOdorReceptorModel" />
+        </attvalues>
+      </node>
+      <node id="42b_right_PN52" label="42b_right_PN52">
+        <attvalues>
+          <attvalue for="5" value="Port" />
+          <attvalue for="11" value="out" />
+          <attvalue for="12" value="spike" />
+          <attvalue for="2" value="42b_right_PNport" />
+          <attvalue for="13" value="/al/out/spk/52" />
+        </attvalues>
+      </node>
+      <node id="22c_left_OSN_0_bsg" label="22c_left_OSN_0_bsg">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="22c_left_OSN_0_bsg" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="35a_left_PN" label="35a_left_PN">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="35a_left_PN" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="1a_right_OSN_0_bsg" label="1a_right_OSN_0_bsg">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="1a_right_OSN_0_bsg" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="30a_left_OSN_0_bsg-30a_left_PN" label="30a_left_OSN_0_bsg-30a_left_PN">
+        <attvalues>
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="1100.0" />
+          <attvalue for="16" value="190.0" />
+          <attvalue for="17" value="0.2001" />
+          <attvalue for="5" value="AlphaSynapsePostBiNorm" />
+          <attvalue for="2" value="30a_left_OSN_0_bsg-30a_left_PN" />
+        </attvalues>
+      </node>
+      <node id="85c_left_OSN_0_bsg" label="85c_left_OSN_0_bsg">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="85c_left_OSN_0_bsg" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="1a_left_OSN_0_bsg-1a_left_PN" label="1a_left_OSN_0_bsg-1a_left_PN">
+        <attvalues>
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="1100.0" />
+          <attvalue for="16" value="190.0" />
+          <attvalue for="17" value="0.2001" />
+          <attvalue for="5" value="AlphaSynapsePostBiNorm" />
+          <attvalue for="2" value="1a_left_OSN_0_bsg-1a_left_PN" />
+        </attvalues>
+      </node>
+      <node id="67b_left_OSN_0_bsg-67b_left_PN" label="67b_left_OSN_0_bsg-67b_left_PN">
+        <attvalues>
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="1100.0" />
+          <attvalue for="16" value="190.0" />
+          <attvalue for="17" value="0.2001" />
+          <attvalue for="5" value="AlphaSynapsePostBiNorm" />
+          <attvalue for="2" value="67b_left_OSN_0_bsg-67b_left_PN" />
+        </attvalues>
+      </node>
+      <node id="24a_left_PN" label="24a_left_PN">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="24a_left_PN" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="47a_&amp;_33b_left_PN" label="47a_&amp;_33b_left_PN">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="47a_&amp;_33b_left_PN" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="30a_right_PN14" label="30a_right_PN14">
+        <attvalues>
+          <attvalue for="5" value="Port" />
+          <attvalue for="11" value="out" />
+          <attvalue for="12" value="spike" />
+          <attvalue for="2" value="30a_right_PNport" />
+          <attvalue for="13" value="/al/out/spk/14" />
+        </attvalues>
+      </node>
+      <node id="35a_right_OSN_0_otp" label="35a_right_OSN_0_otp">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+          <attvalue for="2" value="35a_right_OSN_0_otp" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="5" value="FruitFlyOdorReceptorModel" />
+        </attvalues>
+      </node>
+      <node id="22c_left_OSN_0_otp" label="22c_left_OSN_0_otp">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+          <attvalue for="2" value="22c_left_OSN_0_otp" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="5" value="FruitFlyOdorReceptorModel" />
+        </attvalues>
+      </node>
+      <node id="94a_&amp;_94b_left_PN" label="94a_&amp;_94b_left_PN">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="94a_&amp;_94b_left_PN" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="74a_right_PN" label="74a_right_PN">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="74a_right_PN" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="33a_left_OSN_0_bsg-33a_left_PN" label="33a_left_OSN_0_bsg-33a_left_PN">
+        <attvalues>
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="1100.0" />
+          <attvalue for="16" value="190.0" />
+          <attvalue for="17" value="0.2001" />
+          <attvalue for="5" value="AlphaSynapsePostBiNorm" />
+          <attvalue for="2" value="33a_left_OSN_0_bsg-33a_left_PN" />
+        </attvalues>
+      </node>
+      <node id="47a_&amp;_33b_left_OSN_0_otp" label="47a_&amp;_33b_left_OSN_0_otp">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+          <attvalue for="2" value="47a_&amp;_33b_left_OSN_0_otp" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="5" value="FruitFlyOdorReceptorModel" />
+        </attvalues>
+      </node>
+      <node id="74a_left_OSN_0_otp" label="74a_left_OSN_0_otp">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+          <attvalue for="2" value="74a_left_OSN_0_otp" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="5" value="FruitFlyOdorReceptorModel" />
+        </attvalues>
+      </node>
+      <node id="49a_right_PN" label="49a_right_PN">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="49a_right_PN" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="24a_right_PN" label="24a_right_PN">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="24a_right_PN" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="35a_right_OSN_0_bsg-35a_right_PN" label="35a_right_OSN_0_bsg-35a_right_PN">
+        <attvalues>
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="1100.0" />
+          <attvalue for="16" value="190.0" />
+          <attvalue for="17" value="0.2001" />
+          <attvalue for="5" value="AlphaSynapsePostBiNorm" />
+          <attvalue for="2" value="35a_right_OSN_0_bsg-35a_right_PN" />
+        </attvalues>
+      </node>
+      <node id="94a_&amp;_94b_left_OSN_0_bsg-94a_&amp;_94b_left_PN" label="94a_&amp;_94b_left_OSN_0_bsg-94a_&amp;_94b_left_PN">
+        <attvalues>
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="1100.0" />
+          <attvalue for="16" value="190.0" />
+          <attvalue for="17" value="0.2001" />
+          <attvalue for="5" value="AlphaSynapsePostBiNorm" />
+          <attvalue for="2" value="94a_&amp;_94b_left_OSN_0_bsg-94a_&amp;_94b_left_PN" />
+        </attvalues>
+      </node>
+      <node id="59a_left_PN32" label="59a_left_PN32">
+        <attvalues>
+          <attvalue for="5" value="Port" />
+          <attvalue for="11" value="out" />
+          <attvalue for="12" value="spike" />
+          <attvalue for="2" value="59a_left_PNport" />
+          <attvalue for="13" value="/al/out/spk/32" />
+        </attvalues>
+      </node>
+      <node id="42b_right_OSN_0_otp" label="42b_right_OSN_0_otp">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+          <attvalue for="2" value="42b_right_OSN_0_otp" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="5" value="FruitFlyOdorReceptorModel" />
+        </attvalues>
+      </node>
+      <node id="59a_left_OSN_0_bsg-59a_left_PN" label="59a_left_OSN_0_bsg-59a_left_PN">
+        <attvalues>
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="1100.0" />
+          <attvalue for="16" value="190.0" />
+          <attvalue for="17" value="0.2001" />
+          <attvalue for="5" value="AlphaSynapsePostBiNorm" />
+          <attvalue for="2" value="59a_left_OSN_0_bsg-59a_left_PN" />
+        </attvalues>
+      </node>
+      <node id="42b_left_OSN_0_bsg-42b_left_PN" label="42b_left_OSN_0_bsg-42b_left_PN">
+        <attvalues>
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="1100.0" />
+          <attvalue for="16" value="190.0" />
+          <attvalue for="17" value="0.2001" />
+          <attvalue for="5" value="AlphaSynapsePostBiNorm" />
+          <attvalue for="2" value="42b_left_OSN_0_bsg-42b_left_PN" />
+        </attvalues>
+      </node>
+      <node id="24a_right_OSN_0_otp" label="24a_right_OSN_0_otp">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+          <attvalue for="2" value="24a_right_OSN_0_otp" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="5" value="FruitFlyOdorReceptorModel" />
+        </attvalues>
+      </node>
+      <node id="59a_right_OSN_0_bsg-59a_right_PN" label="59a_right_OSN_0_bsg-59a_right_PN">
+        <attvalues>
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="1100.0" />
+          <attvalue for="16" value="190.0" />
+          <attvalue for="17" value="0.2001" />
+          <attvalue for="5" value="AlphaSynapsePostBiNorm" />
+          <attvalue for="2" value="59a_right_OSN_0_bsg-59a_right_PN" />
+        </attvalues>
+      </node>
+      <node id="42b_left_PN80" label="42b_left_PN80">
+        <attvalues>
+          <attvalue for="5" value="Port" />
+          <attvalue for="11" value="out" />
+          <attvalue for="12" value="spike" />
+          <attvalue for="2" value="42b_left_PNport" />
+          <attvalue for="13" value="/al/out/spk/80" />
+        </attvalues>
+      </node>
+      <node id="63a_left_OSN_0_bsg" label="63a_left_OSN_0_bsg">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="63a_left_OSN_0_bsg" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="33a_right_PN" label="33a_right_PN">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="33a_right_PN" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="45b_left_OSN_0_otp" label="45b_left_OSN_0_otp">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+          <attvalue for="2" value="45b_left_OSN_0_otp" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="5" value="FruitFlyOdorReceptorModel" />
+        </attvalues>
+      </node>
+      <node id="42a_left_PN" label="42a_left_PN">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="42a_left_PN" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="47a_&amp;_33b_right_PN66" label="47a_&amp;_33b_right_PN66">
+        <attvalues>
+          <attvalue for="5" value="Port" />
+          <attvalue for="11" value="out" />
+          <attvalue for="12" value="spike" />
+          <attvalue for="2" value="47a_&amp;_33b_right_PNport" />
+          <attvalue for="13" value="/al/out/spk/66" />
+        </attvalues>
+      </node>
+      <node id="30a_left_PN60" label="30a_left_PN60">
+        <attvalues>
+          <attvalue for="5" value="Port" />
+          <attvalue for="11" value="out" />
+          <attvalue for="12" value="spike" />
+          <attvalue for="2" value="30a_left_PNport" />
+          <attvalue for="13" value="/al/out/spk/60" />
+        </attvalues>
+      </node>
+      <node id="24a_left_OSN_0_bsg" label="24a_left_OSN_0_bsg">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="24a_left_OSN_0_bsg" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="67b_left_OSN_0_otp" label="67b_left_OSN_0_otp">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+          <attvalue for="2" value="67b_left_OSN_0_otp" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="5" value="FruitFlyOdorReceptorModel" />
+        </attvalues>
+      </node>
+      <node id="83a_right_OSN_0_otp" label="83a_right_OSN_0_otp">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+          <attvalue for="2" value="83a_right_OSN_0_otp" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="5" value="FruitFlyOdorReceptorModel" />
+        </attvalues>
+      </node>
+      <node id="30a_left_PN" label="30a_left_PN">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="30a_left_PN" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="85c_left_PN38" label="85c_left_PN38">
+        <attvalues>
+          <attvalue for="5" value="Port" />
+          <attvalue for="11" value="out" />
+          <attvalue for="12" value="spike" />
+          <attvalue for="2" value="85c_left_PNport" />
+          <attvalue for="13" value="/al/out/spk/38" />
+        </attvalues>
+      </node>
+      <node id="94a_&amp;_94b_right_OSN_0_bsg-94a_&amp;_94b_right_PN" label="94a_&amp;_94b_right_OSN_0_bsg-94a_&amp;_94b_right_PN">
+        <attvalues>
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="1100.0" />
+          <attvalue for="16" value="190.0" />
+          <attvalue for="17" value="0.2001" />
+          <attvalue for="5" value="AlphaSynapsePostBiNorm" />
+          <attvalue for="2" value="94a_&amp;_94b_right_OSN_0_bsg-94a_&amp;_94b_right_PN" />
+        </attvalues>
+      </node>
+      <node id="83a_left_PN44" label="83a_left_PN44">
+        <attvalues>
+          <attvalue for="5" value="Port" />
+          <attvalue for="11" value="out" />
+          <attvalue for="12" value="spike" />
+          <attvalue for="2" value="83a_left_PNport" />
+          <attvalue for="13" value="/al/out/spk/44" />
+        </attvalues>
+      </node>
+      <node id="42a_right_PN46" label="42a_right_PN46">
+        <attvalues>
+          <attvalue for="5" value="Port" />
+          <attvalue for="11" value="out" />
+          <attvalue for="12" value="spike" />
+          <attvalue for="2" value="42a_right_PNport" />
+          <attvalue for="13" value="/al/out/spk/46" />
+        </attvalues>
+      </node>
+      <node id="67b_right_OSN_0_otp" label="67b_right_OSN_0_otp">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+          <attvalue for="2" value="67b_right_OSN_0_otp" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="5" value="FruitFlyOdorReceptorModel" />
+        </attvalues>
+      </node>
+      <node id="1a_left_OSN_0_bsg" label="1a_left_OSN_0_bsg">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="1a_left_OSN_0_bsg" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="82a_right_PN70" label="82a_right_PN70">
+        <attvalues>
+          <attvalue for="5" value="Port" />
+          <attvalue for="11" value="out" />
+          <attvalue for="12" value="spike" />
+          <attvalue for="2" value="82a_right_PNport" />
+          <attvalue for="13" value="/al/out/spk/70" />
+        </attvalues>
+      </node>
+      <node id="74a_right_OSN_0_bsg-74a_right_PN" label="74a_right_OSN_0_bsg-74a_right_PN">
+        <attvalues>
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="1100.0" />
+          <attvalue for="16" value="190.0" />
+          <attvalue for="17" value="0.2001" />
+          <attvalue for="5" value="AlphaSynapsePostBiNorm" />
+          <attvalue for="2" value="74a_right_OSN_0_bsg-74a_right_PN" />
+        </attvalues>
+      </node>
+      <node id="83a_right_PN76" label="83a_right_PN76">
+        <attvalues>
+          <attvalue for="5" value="Port" />
+          <attvalue for="11" value="out" />
+          <attvalue for="12" value="spike" />
+          <attvalue for="2" value="83a_right_PNport" />
+          <attvalue for="13" value="/al/out/spk/76" />
+        </attvalues>
+      </node>
+      <node id="13a_right_OSN_0_otp" label="13a_right_OSN_0_otp">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+          <attvalue for="2" value="13a_right_OSN_0_otp" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="5" value="FruitFlyOdorReceptorModel" />
+        </attvalues>
+      </node>
+      <node id="63a_right_PN50" label="63a_right_PN50">
+        <attvalues>
+          <attvalue for="5" value="Port" />
+          <attvalue for="11" value="out" />
+          <attvalue for="12" value="spike" />
+          <attvalue for="2" value="63a_right_PNport" />
+          <attvalue for="13" value="/al/out/spk/50" />
+        </attvalues>
+      </node>
+      <node id="22c_right_PN" label="22c_right_PN">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="22c_right_PN" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="1a_left_PN0" label="1a_left_PN0">
+        <attvalues>
+          <attvalue for="5" value="Port" />
+          <attvalue for="11" value="out" />
+          <attvalue for="12" value="spike" />
+          <attvalue for="2" value="1a_left_PNport" />
+          <attvalue for="13" value="/al/out/spk/0" />
+        </attvalues>
+      </node>
+      <node id="1a_right_OSN_0_bsg-1a_right_PN" label="1a_right_OSN_0_bsg-1a_right_PN">
+        <attvalues>
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="1100.0" />
+          <attvalue for="16" value="190.0" />
+          <attvalue for="17" value="0.2001" />
+          <attvalue for="5" value="AlphaSynapsePostBiNorm" />
+          <attvalue for="2" value="1a_right_OSN_0_bsg-1a_right_PN" />
+        </attvalues>
+      </node>
+      <node id="35a_left_OSN_0_bsg" label="35a_left_OSN_0_bsg">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="35a_left_OSN_0_bsg" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="59a_left_OSN_0_bsg" label="59a_left_OSN_0_bsg">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="59a_left_OSN_0_bsg" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="13a_left_PN" label="13a_left_PN">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="13a_left_PN" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="63a_left_PN" label="63a_left_PN">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="63a_left_PN" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="59a_right_OSN_0_otp" label="59a_right_OSN_0_otp">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+          <attvalue for="2" value="59a_right_OSN_0_otp" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="5" value="FruitFlyOdorReceptorModel" />
+        </attvalues>
+      </node>
+      <node id="82a_left_OSN_0_bsg-82a_left_PN" label="82a_left_OSN_0_bsg-82a_left_PN">
+        <attvalues>
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="1100.0" />
+          <attvalue for="16" value="190.0" />
+          <attvalue for="17" value="0.2001" />
+          <attvalue for="5" value="AlphaSynapsePostBiNorm" />
+          <attvalue for="2" value="82a_left_OSN_0_bsg-82a_left_PN" />
+        </attvalues>
+      </node>
+      <node id="82a_left_PN" label="82a_left_PN">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="82a_left_PN" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="45b_left_OSN_0_bsg-45b_left_PN" label="45b_left_OSN_0_bsg-45b_left_PN">
+        <attvalues>
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="1100.0" />
+          <attvalue for="16" value="190.0" />
+          <attvalue for="17" value="0.2001" />
+          <attvalue for="5" value="AlphaSynapsePostBiNorm" />
+          <attvalue for="2" value="45b_left_OSN_0_bsg-45b_left_PN" />
+        </attvalues>
+      </node>
+      <node id="35a_right_OSN_0_bsg" label="35a_right_OSN_0_bsg">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="35a_right_OSN_0_bsg" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="59a_right_OSN_0_bsg" label="59a_right_OSN_0_bsg">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="59a_right_OSN_0_bsg" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="42b_left_OSN_0_bsg" label="42b_left_OSN_0_bsg">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="42b_left_OSN_0_bsg" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="47a_&amp;_33b_right_PN" label="47a_&amp;_33b_right_PN">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="47a_&amp;_33b_right_PN" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="35a_right_PN22" label="35a_right_PN22">
+        <attvalues>
+          <attvalue for="5" value="Port" />
+          <attvalue for="11" value="out" />
+          <attvalue for="12" value="spike" />
+          <attvalue for="2" value="35a_right_PNport" />
+          <attvalue for="13" value="/al/out/spk/22" />
+        </attvalues>
+      </node>
+      <node id="85c_left_PN" label="85c_left_PN">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="85c_left_PN" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="35a_right_PN" label="35a_right_PN">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="35a_right_PN" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="35a_left_PN48" label="35a_left_PN48">
+        <attvalues>
+          <attvalue for="5" value="Port" />
+          <attvalue for="11" value="out" />
+          <attvalue for="12" value="spike" />
+          <attvalue for="2" value="35a_left_PNport" />
+          <attvalue for="13" value="/al/out/spk/48" />
+        </attvalues>
+      </node>
+      <node id="85c_right_OSN_0_otp" label="85c_right_OSN_0_otp">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+          <attvalue for="2" value="85c_right_OSN_0_otp" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="5" value="FruitFlyOdorReceptorModel" />
+        </attvalues>
+      </node>
+      <node id="45b_right_OSN_0_bsg" label="45b_right_OSN_0_bsg">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="45b_right_OSN_0_bsg" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="67b_left_PN26" label="67b_left_PN26">
+        <attvalues>
+          <attvalue for="5" value="Port" />
+          <attvalue for="11" value="out" />
+          <attvalue for="12" value="spike" />
+          <attvalue for="2" value="67b_left_PNport" />
+          <attvalue for="13" value="/al/out/spk/26" />
+        </attvalues>
+      </node>
+      <node id="49a_right_PN74" label="49a_right_PN74">
+        <attvalues>
+          <attvalue for="5" value="Port" />
+          <attvalue for="11" value="out" />
+          <attvalue for="12" value="spike" />
+          <attvalue for="2" value="49a_right_PNport" />
+          <attvalue for="13" value="/al/out/spk/74" />
+        </attvalues>
+      </node>
+      <node id="94a_&amp;_94b_left_OSN_0_otp" label="94a_&amp;_94b_left_OSN_0_otp">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+          <attvalue for="2" value="94a_&amp;_94b_left_OSN_0_otp" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="5" value="FruitFlyOdorReceptorModel" />
+        </attvalues>
+      </node>
+      <node id="30a_left_OSN_0_bsg" label="30a_left_OSN_0_bsg">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="30a_left_OSN_0_bsg" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="49a_left_OSN_0_otp" label="49a_left_OSN_0_otp">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+          <attvalue for="2" value="49a_left_OSN_0_otp" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="5" value="FruitFlyOdorReceptorModel" />
+        </attvalues>
+      </node>
+      <node id="45b_left_PN78" label="45b_left_PN78">
+        <attvalues>
+          <attvalue for="5" value="Port" />
+          <attvalue for="11" value="out" />
+          <attvalue for="12" value="spike" />
+          <attvalue for="2" value="45b_left_PNport" />
+          <attvalue for="13" value="/al/out/spk/78" />
+        </attvalues>
+      </node>
+      <node id="49a_left_OSN_0_bsg" label="49a_left_OSN_0_bsg">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="49a_left_OSN_0_bsg" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="45a_left_OSN_0_bsg-45a_left_PN" label="45a_left_OSN_0_bsg-45a_left_PN">
+        <attvalues>
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="1100.0" />
+          <attvalue for="16" value="190.0" />
+          <attvalue for="17" value="0.2001" />
+          <attvalue for="5" value="AlphaSynapsePostBiNorm" />
+          <attvalue for="2" value="45a_left_OSN_0_bsg-45a_left_PN" />
+        </attvalues>
+      </node>
+      <node id="67b_left_OSN_0_bsg" label="67b_left_OSN_0_bsg">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="67b_left_OSN_0_bsg" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="94a_&amp;_94b_right_OSN_0_otp" label="94a_&amp;_94b_right_OSN_0_otp">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+          <attvalue for="2" value="94a_&amp;_94b_right_OSN_0_otp" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="5" value="FruitFlyOdorReceptorModel" />
+        </attvalues>
+      </node>
+      <node id="47a_&amp;_33b_right_OSN_0_bsg-47a_&amp;_33b_right_PN" label="47a_&amp;_33b_right_OSN_0_bsg-47a_&amp;_33b_right_PN">
+        <attvalues>
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="1100.0" />
+          <attvalue for="16" value="190.0" />
+          <attvalue for="17" value="0.2001" />
+          <attvalue for="5" value="AlphaSynapsePostBiNorm" />
+          <attvalue for="2" value="47a_&amp;_33b_right_OSN_0_bsg-47a_&amp;_33b_right_PN" />
+        </attvalues>
+      </node>
+      <node id="74a_right_PN8" label="74a_right_PN8">
+        <attvalues>
+          <attvalue for="5" value="Port" />
+          <attvalue for="11" value="out" />
+          <attvalue for="12" value="spike" />
+          <attvalue for="2" value="74a_right_PNport" />
+          <attvalue for="13" value="/al/out/spk/8" />
+        </attvalues>
+      </node>
+      <node id="22c_left_PN30" label="22c_left_PN30">
+        <attvalues>
+          <attvalue for="5" value="Port" />
+          <attvalue for="11" value="out" />
+          <attvalue for="12" value="spike" />
+          <attvalue for="2" value="22c_left_PNport" />
+          <attvalue for="13" value="/al/out/spk/30" />
+        </attvalues>
+      </node>
+      <node id="13a_right_OSN_0_bsg" label="13a_right_OSN_0_bsg">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="13a_right_OSN_0_bsg" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="30a_right_OSN_0_bsg" label="30a_right_OSN_0_bsg">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="30a_right_OSN_0_bsg" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="42a_right_OSN_0_bsg-42a_right_PN" label="42a_right_OSN_0_bsg-42a_right_PN">
+        <attvalues>
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="1100.0" />
+          <attvalue for="16" value="190.0" />
+          <attvalue for="17" value="0.2001" />
+          <attvalue for="5" value="AlphaSynapsePostBiNorm" />
+          <attvalue for="2" value="42a_right_OSN_0_bsg-42a_right_PN" />
+        </attvalues>
+      </node>
+      <node id="82a_right_OSN_0_otp" label="82a_right_OSN_0_otp">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+          <attvalue for="2" value="82a_right_OSN_0_otp" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="5" value="FruitFlyOdorReceptorModel" />
+        </attvalues>
+      </node>
+      <node id="45a_right_PN58" label="45a_right_PN58">
+        <attvalues>
+          <attvalue for="5" value="Port" />
+          <attvalue for="11" value="out" />
+          <attvalue for="12" value="spike" />
+          <attvalue for="2" value="45a_right_PNport" />
+          <attvalue for="13" value="/al/out/spk/58" />
+        </attvalues>
+      </node>
+      <node id="82a_left_OSN_0_otp" label="82a_left_OSN_0_otp">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+          <attvalue for="2" value="82a_left_OSN_0_otp" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="5" value="FruitFlyOdorReceptorModel" />
+        </attvalues>
+      </node>
+      <node id="82a_right_PN" label="82a_right_PN">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="82a_right_PN" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="24a_right_PN68" label="24a_right_PN68">
+        <attvalues>
+          <attvalue for="5" value="Port" />
+          <attvalue for="11" value="out" />
+          <attvalue for="12" value="spike" />
+          <attvalue for="2" value="24a_right_PNport" />
+          <attvalue for="13" value="/al/out/spk/68" />
+        </attvalues>
+      </node>
+      <node id="45a_left_OSN_0_otp" label="45a_left_OSN_0_otp">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+          <attvalue for="2" value="45a_left_OSN_0_otp" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="5" value="FruitFlyOdorReceptorModel" />
+        </attvalues>
+      </node>
+      <node id="83a_right_OSN_0_bsg" label="83a_right_OSN_0_bsg">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="83a_right_OSN_0_bsg" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="49a_right_OSN_0_bsg" label="49a_right_OSN_0_bsg">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="49a_right_OSN_0_bsg" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="59a_right_PN" label="59a_right_PN">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="59a_right_PN" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="45b_left_PN" label="45b_left_PN">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="45b_left_PN" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="42a_right_OSN_0_bsg" label="42a_right_OSN_0_bsg">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="42a_right_OSN_0_bsg" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="83a_left_OSN_0_bsg" label="83a_left_OSN_0_bsg">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="83a_left_OSN_0_bsg" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="47a_&amp;_33b_left_OSN_0_bsg-47a_&amp;_33b_left_PN" label="47a_&amp;_33b_left_OSN_0_bsg-47a_&amp;_33b_left_PN">
+        <attvalues>
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="1100.0" />
+          <attvalue for="16" value="190.0" />
+          <attvalue for="17" value="0.2001" />
+          <attvalue for="5" value="AlphaSynapsePostBiNorm" />
+          <attvalue for="2" value="47a_&amp;_33b_left_OSN_0_bsg-47a_&amp;_33b_left_PN" />
+        </attvalues>
+      </node>
+      <node id="63a_right_PN" label="63a_right_PN">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="63a_right_PN" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="47a_&amp;_33b_right_OSN_0_otp" label="47a_&amp;_33b_right_OSN_0_otp">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+          <attvalue for="2" value="47a_&amp;_33b_right_OSN_0_otp" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="5" value="FruitFlyOdorReceptorModel" />
+        </attvalues>
+      </node>
+      <node id="33a_left_PN" label="33a_left_PN">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="33a_left_PN" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="63a_right_OSN_0_bsg" label="63a_right_OSN_0_bsg">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="63a_right_OSN_0_bsg" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="47a_&amp;_33b_right_OSN_0_bsg" label="47a_&amp;_33b_right_OSN_0_bsg">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="47a_&amp;_33b_right_OSN_0_bsg" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="74a_right_OSN_0_otp" label="74a_right_OSN_0_otp">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+          <attvalue for="2" value="74a_right_OSN_0_otp" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="5" value="FruitFlyOdorReceptorModel" />
+        </attvalues>
+      </node>
+      <node id="59a_left_PN" label="59a_left_PN">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="59a_left_PN" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="13a_left_PN42" label="13a_left_PN42">
+        <attvalues>
+          <attvalue for="5" value="Port" />
+          <attvalue for="11" value="out" />
+          <attvalue for="12" value="spike" />
+          <attvalue for="2" value="13a_left_PNport" />
+          <attvalue for="13" value="/al/out/spk/42" />
+        </attvalues>
+      </node>
+      <node id="94a_&amp;_94b_right_OSN_0_bsg" label="94a_&amp;_94b_right_OSN_0_bsg">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="94a_&amp;_94b_right_OSN_0_bsg" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="33a_left_PN20" label="33a_left_PN20">
+        <attvalues>
+          <attvalue for="5" value="Port" />
+          <attvalue for="11" value="out" />
+          <attvalue for="12" value="spike" />
+          <attvalue for="2" value="33a_left_PNport" />
+          <attvalue for="13" value="/al/out/spk/20" />
+        </attvalues>
+      </node>
+      <node id="42a_left_OSN_0_bsg-42a_left_PN" label="42a_left_OSN_0_bsg-42a_left_PN">
+        <attvalues>
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="1100.0" />
+          <attvalue for="16" value="190.0" />
+          <attvalue for="17" value="0.2001" />
+          <attvalue for="5" value="AlphaSynapsePostBiNorm" />
+          <attvalue for="2" value="42a_left_OSN_0_bsg-42a_left_PN" />
+        </attvalues>
+      </node>
+      <node id="42a_left_PN28" label="42a_left_PN28">
+        <attvalues>
+          <attvalue for="5" value="Port" />
+          <attvalue for="11" value="out" />
+          <attvalue for="12" value="spike" />
+          <attvalue for="2" value="42a_left_PNport" />
+          <attvalue for="13" value="/al/out/spk/28" />
+        </attvalues>
+      </node>
+      <node id="94a_&amp;_94b_left_PN82" label="94a_&amp;_94b_left_PN82">
+        <attvalues>
+          <attvalue for="5" value="Port" />
+          <attvalue for="11" value="out" />
+          <attvalue for="12" value="spike" />
+          <attvalue for="2" value="94a_&amp;_94b_left_PNport" />
+          <attvalue for="13" value="/al/out/spk/82" />
+        </attvalues>
+      </node>
+      <node id="45a_left_PN" label="45a_left_PN">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="45a_left_PN" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="33a_right_PN40" label="33a_right_PN40">
+        <attvalues>
+          <attvalue for="5" value="Port" />
+          <attvalue for="11" value="out" />
+          <attvalue for="12" value="spike" />
+          <attvalue for="2" value="33a_right_PNport" />
+          <attvalue for="13" value="/al/out/spk/40" />
+        </attvalues>
+      </node>
+      <node id="24a_left_OSN_0_otp" label="24a_left_OSN_0_otp">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+          <attvalue for="2" value="24a_left_OSN_0_otp" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="5" value="FruitFlyOdorReceptorModel" />
+        </attvalues>
+      </node>
+      <node id="33a_right_OSN_0_bsg" label="33a_right_OSN_0_bsg">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="33a_right_OSN_0_bsg" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="49a_left_PN6" label="49a_left_PN6">
+        <attvalues>
+          <attvalue for="5" value="Port" />
+          <attvalue for="11" value="out" />
+          <attvalue for="12" value="spike" />
+          <attvalue for="2" value="49a_left_PNport" />
+          <attvalue for="13" value="/al/out/spk/6" />
+        </attvalues>
+      </node>
+      <node id="83a_left_OSN_0_bsg-83a_left_PN" label="83a_left_OSN_0_bsg-83a_left_PN">
+        <attvalues>
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="1100.0" />
+          <attvalue for="16" value="190.0" />
+          <attvalue for="17" value="0.2001" />
+          <attvalue for="5" value="AlphaSynapsePostBiNorm" />
+          <attvalue for="2" value="83a_left_OSN_0_bsg-83a_left_PN" />
+        </attvalues>
+      </node>
+      <node id="49a_right_OSN_0_bsg-49a_right_PN" label="49a_right_OSN_0_bsg-49a_right_PN">
+        <attvalues>
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="1100.0" />
+          <attvalue for="16" value="190.0" />
+          <attvalue for="17" value="0.2001" />
+          <attvalue for="5" value="AlphaSynapsePostBiNorm" />
+          <attvalue for="2" value="49a_right_OSN_0_bsg-49a_right_PN" />
+        </attvalues>
+      </node>
+      <node id="94a_&amp;_94b_right_PN" label="94a_&amp;_94b_right_PN">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="94a_&amp;_94b_right_PN" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="1a_right_PN12" label="1a_right_PN12">
+        <attvalues>
+          <attvalue for="5" value="Port" />
+          <attvalue for="11" value="out" />
+          <attvalue for="12" value="spike" />
+          <attvalue for="2" value="1a_right_PNport" />
+          <attvalue for="13" value="/al/out/spk/12" />
+        </attvalues>
+      </node>
+      <node id="24a_left_OSN_0_bsg-24a_left_PN" label="24a_left_OSN_0_bsg-24a_left_PN">
+        <attvalues>
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="1100.0" />
+          <attvalue for="16" value="190.0" />
+          <attvalue for="17" value="0.2001" />
+          <attvalue for="5" value="AlphaSynapsePostBiNorm" />
+          <attvalue for="2" value="24a_left_OSN_0_bsg-24a_left_PN" />
+        </attvalues>
+      </node>
+      <node id="13a_right_PN56" label="13a_right_PN56">
+        <attvalues>
+          <attvalue for="5" value="Port" />
+          <attvalue for="11" value="out" />
+          <attvalue for="12" value="spike" />
+          <attvalue for="2" value="13a_right_PNport" />
+          <attvalue for="13" value="/al/out/spk/56" />
+        </attvalues>
+      </node>
+      <node id="47a_&amp;_33b_left_OSN_0_bsg" label="47a_&amp;_33b_left_OSN_0_bsg">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="47a_&amp;_33b_left_OSN_0_bsg" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="24a_right_OSN_0_bsg-24a_right_PN" label="24a_right_OSN_0_bsg-24a_right_PN">
+        <attvalues>
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="1100.0" />
+          <attvalue for="16" value="190.0" />
+          <attvalue for="17" value="0.2001" />
+          <attvalue for="5" value="AlphaSynapsePostBiNorm" />
+          <attvalue for="2" value="24a_right_OSN_0_bsg-24a_right_PN" />
+        </attvalues>
+      </node>
+      <node id="42a_left_OSN_0_bsg" label="42a_left_OSN_0_bsg">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="42a_left_OSN_0_bsg" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="45a_right_OSN_0_bsg-45a_right_PN" label="45a_right_OSN_0_bsg-45a_right_PN">
+        <attvalues>
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="1100.0" />
+          <attvalue for="16" value="190.0" />
+          <attvalue for="17" value="0.2001" />
+          <attvalue for="5" value="AlphaSynapsePostBiNorm" />
+          <attvalue for="2" value="45a_right_OSN_0_bsg-45a_right_PN" />
+        </attvalues>
+      </node>
+      <node id="94a_&amp;_94b_right_PN64" label="94a_&amp;_94b_right_PN64">
+        <attvalues>
+          <attvalue for="5" value="Port" />
+          <attvalue for="11" value="out" />
+          <attvalue for="12" value="spike" />
+          <attvalue for="2" value="94a_&amp;_94b_right_PNport" />
+          <attvalue for="13" value="/al/out/spk/64" />
+        </attvalues>
+      </node>
+      <node id="85c_right_OSN_0_bsg-85c_right_PN" label="85c_right_OSN_0_bsg-85c_right_PN">
+        <attvalues>
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="1100.0" />
+          <attvalue for="16" value="190.0" />
+          <attvalue for="17" value="0.2001" />
+          <attvalue for="5" value="AlphaSynapsePostBiNorm" />
+          <attvalue for="2" value="85c_right_OSN_0_bsg-85c_right_PN" />
+        </attvalues>
+      </node>
+      <node id="42a_left_OSN_0_otp" label="42a_left_OSN_0_otp">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+          <attvalue for="2" value="42a_left_OSN_0_otp" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="5" value="FruitFlyOdorReceptorModel" />
+        </attvalues>
+      </node>
+      <node id="35a_left_OSN_0_otp" label="35a_left_OSN_0_otp">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+          <attvalue for="2" value="35a_left_OSN_0_otp" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="5" value="FruitFlyOdorReceptorModel" />
+        </attvalues>
+      </node>
+      <node id="74a_left_PN" label="74a_left_PN">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="74a_left_PN" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="59a_right_PN4" label="59a_right_PN4">
+        <attvalues>
+          <attvalue for="5" value="Port" />
+          <attvalue for="11" value="out" />
+          <attvalue for="12" value="spike" />
+          <attvalue for="2" value="59a_right_PNport" />
+          <attvalue for="13" value="/al/out/spk/4" />
+        </attvalues>
+      </node>
+      <node id="85c_right_PN54" label="85c_right_PN54">
+        <attvalues>
+          <attvalue for="5" value="Port" />
+          <attvalue for="11" value="out" />
+          <attvalue for="12" value="spike" />
+          <attvalue for="2" value="85c_right_PNport" />
+          <attvalue for="13" value="/al/out/spk/54" />
+        </attvalues>
+      </node>
+      <node id="67b_right_OSN_0_bsg-67b_right_PN" label="67b_right_OSN_0_bsg-67b_right_PN">
+        <attvalues>
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="1100.0" />
+          <attvalue for="16" value="190.0" />
+          <attvalue for="17" value="0.2001" />
+          <attvalue for="5" value="AlphaSynapsePostBiNorm" />
+          <attvalue for="2" value="67b_right_OSN_0_bsg-67b_right_PN" />
+        </attvalues>
+      </node>
+      <node id="83a_left_PN" label="83a_left_PN">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="83a_left_PN" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="42a_right_PN" label="42a_right_PN">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="42a_right_PN" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="63a_left_PN34" label="63a_left_PN34">
+        <attvalues>
+          <attvalue for="5" value="Port" />
+          <attvalue for="11" value="out" />
+          <attvalue for="12" value="spike" />
+          <attvalue for="2" value="63a_left_PNport" />
+          <attvalue for="13" value="/al/out/spk/34" />
+        </attvalues>
+      </node>
+      <node id="1a_right_OSN_0_otp" label="1a_right_OSN_0_otp">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+          <attvalue for="2" value="1a_right_OSN_0_otp" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="5" value="FruitFlyOdorReceptorModel" />
+        </attvalues>
+      </node>
+      <node id="22c_right_OSN_0_bsg" label="22c_right_OSN_0_bsg">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="22c_right_OSN_0_bsg" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="82a_left_OSN_0_bsg" label="82a_left_OSN_0_bsg">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="82a_left_OSN_0_bsg" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="45a_right_PN" label="45a_right_PN">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="45a_right_PN" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="22c_right_OSN_0_bsg-22c_right_PN" label="22c_right_OSN_0_bsg-22c_right_PN">
+        <attvalues>
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="1100.0" />
+          <attvalue for="16" value="190.0" />
+          <attvalue for="17" value="0.2001" />
+          <attvalue for="5" value="AlphaSynapsePostBiNorm" />
+          <attvalue for="2" value="22c_right_OSN_0_bsg-22c_right_PN" />
+        </attvalues>
+      </node>
+      <node id="83a_right_PN" label="83a_right_PN">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="83a_right_PN" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="83a_right_OSN_0_bsg-83a_right_PN" label="83a_right_OSN_0_bsg-83a_right_PN">
+        <attvalues>
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="1100.0" />
+          <attvalue for="16" value="190.0" />
+          <attvalue for="17" value="0.2001" />
+          <attvalue for="5" value="AlphaSynapsePostBiNorm" />
+          <attvalue for="2" value="83a_right_OSN_0_bsg-83a_right_PN" />
+        </attvalues>
+      </node>
+      <node id="45a_left_PN16" label="45a_left_PN16">
+        <attvalues>
+          <attvalue for="5" value="Port" />
+          <attvalue for="11" value="out" />
+          <attvalue for="12" value="spike" />
+          <attvalue for="2" value="45a_left_PNport" />
+          <attvalue for="13" value="/al/out/spk/16" />
+        </attvalues>
+      </node>
+      <node id="67b_right_OSN_0_bsg" label="67b_right_OSN_0_bsg">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="67b_right_OSN_0_bsg" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="22c_left_PN" label="22c_left_PN">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="22c_left_PN" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="45a_right_OSN_0_bsg" label="45a_right_OSN_0_bsg">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="45a_right_OSN_0_bsg" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="85c_right_PN" label="85c_right_PN">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="85c_right_PN" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="85c_right_OSN_0_bsg" label="85c_right_OSN_0_bsg">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="85c_right_OSN_0_bsg" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="13a_left_OSN_0_otp" label="13a_left_OSN_0_otp">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+          <attvalue for="2" value="13a_left_OSN_0_otp" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="5" value="FruitFlyOdorReceptorModel" />
+        </attvalues>
+      </node>
+      <node id="24a_left_PN2" label="24a_left_PN2">
+        <attvalues>
+          <attvalue for="5" value="Port" />
+          <attvalue for="11" value="out" />
+          <attvalue for="12" value="spike" />
+          <attvalue for="2" value="24a_left_PNport" />
+          <attvalue for="13" value="/al/out/spk/2" />
+        </attvalues>
+      </node>
+      <node id="42b_left_PN" label="42b_left_PN">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="42b_left_PN" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="42b_right_OSN_0_bsg-42b_right_PN" label="42b_right_OSN_0_bsg-42b_right_PN">
+        <attvalues>
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="1100.0" />
+          <attvalue for="16" value="190.0" />
+          <attvalue for="17" value="0.2001" />
+          <attvalue for="5" value="AlphaSynapsePostBiNorm" />
+          <attvalue for="2" value="42b_right_OSN_0_bsg-42b_right_PN" />
+        </attvalues>
+      </node>
+      <node id="42b_right_OSN_0_bsg" label="42b_right_OSN_0_bsg">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="42b_right_OSN_0_bsg" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="22c_left_OSN_0_bsg-22c_left_PN" label="22c_left_OSN_0_bsg-22c_left_PN">
+        <attvalues>
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="1100.0" />
+          <attvalue for="16" value="190.0" />
+          <attvalue for="17" value="0.2001" />
+          <attvalue for="5" value="AlphaSynapsePostBiNorm" />
+          <attvalue for="2" value="22c_left_OSN_0_bsg-22c_left_PN" />
+        </attvalues>
+      </node>
+      <node id="33a_right_OSN_0_otp" label="33a_right_OSN_0_otp">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+          <attvalue for="2" value="33a_right_OSN_0_otp" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="5" value="FruitFlyOdorReceptorModel" />
+        </attvalues>
+      </node>
+      <node id="45b_left_OSN_0_bsg" label="45b_left_OSN_0_bsg">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="45b_left_OSN_0_bsg" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="45b_right_PN" label="45b_right_PN">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="45b_right_PN" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="1a_right_PN" label="1a_right_PN">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="1a_right_PN" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="82a_right_OSN_0_bsg-82a_right_PN" label="82a_right_OSN_0_bsg-82a_right_PN">
+        <attvalues>
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="1100.0" />
+          <attvalue for="16" value="190.0" />
+          <attvalue for="17" value="0.2001" />
+          <attvalue for="5" value="AlphaSynapsePostBiNorm" />
+          <attvalue for="2" value="82a_right_OSN_0_bsg-82a_right_PN" />
+        </attvalues>
+      </node>
+      <node id="13a_left_OSN_0_bsg" label="13a_left_OSN_0_bsg">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="13a_left_OSN_0_bsg" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="33a_left_OSN_0_otp" label="33a_left_OSN_0_otp">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+          <attvalue for="2" value="33a_left_OSN_0_otp" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="5" value="FruitFlyOdorReceptorModel" />
+        </attvalues>
+      </node>
+      <node id="33a_left_OSN_0_bsg" label="33a_left_OSN_0_bsg">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="33a_left_OSN_0_bsg" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="33a_right_OSN_0_bsg-33a_right_PN" label="33a_right_OSN_0_bsg-33a_right_PN">
+        <attvalues>
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="1100.0" />
+          <attvalue for="16" value="190.0" />
+          <attvalue for="17" value="0.2001" />
+          <attvalue for="5" value="AlphaSynapsePostBiNorm" />
+          <attvalue for="2" value="33a_right_OSN_0_bsg-33a_right_PN" />
+        </attvalues>
+      </node>
+      <node id="22c_right_OSN_0_otp" label="22c_right_OSN_0_otp">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+          <attvalue for="2" value="22c_right_OSN_0_otp" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="5" value="FruitFlyOdorReceptorModel" />
+        </attvalues>
+      </node>
+      <node id="13a_right_PN" label="13a_right_PN">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="13a_right_PN" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="63a_right_OSN_0_bsg-63a_right_PN" label="63a_right_OSN_0_bsg-63a_right_PN">
+        <attvalues>
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="1100.0" />
+          <attvalue for="16" value="190.0" />
+          <attvalue for="17" value="0.2001" />
+          <attvalue for="5" value="AlphaSynapsePostBiNorm" />
+          <attvalue for="2" value="63a_right_OSN_0_bsg-63a_right_PN" />
+        </attvalues>
+      </node>
+      <node id="49a_left_PN" label="49a_left_PN">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="49a_left_PN" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="47a_&amp;_33b_left_PN24" label="47a_&amp;_33b_left_PN24">
+        <attvalues>
+          <attvalue for="5" value="Port" />
+          <attvalue for="11" value="out" />
+          <attvalue for="12" value="spike" />
+          <attvalue for="2" value="47a_&amp;_33b_left_PNport" />
+          <attvalue for="13" value="/al/out/spk/24" />
+        </attvalues>
+      </node>
+      <node id="30a_right_PN" label="30a_right_PN">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="30a_right_PN" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="30a_left_OSN_0_otp" label="30a_left_OSN_0_otp">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+          <attvalue for="2" value="30a_left_OSN_0_otp" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="5" value="FruitFlyOdorReceptorModel" />
+        </attvalues>
+      </node>
+      <node id="67b_right_PN" label="67b_right_PN">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="67b_right_PN" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="1a_left_PN" label="1a_left_PN">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="1a_left_PN" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="67b_left_PN" label="67b_left_PN">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="67b_left_PN" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="49a_left_OSN_0_bsg-49a_left_PN" label="49a_left_OSN_0_bsg-49a_left_PN">
+        <attvalues>
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="1100.0" />
+          <attvalue for="16" value="190.0" />
+          <attvalue for="17" value="0.2001" />
+          <attvalue for="5" value="AlphaSynapsePostBiNorm" />
+          <attvalue for="2" value="49a_left_OSN_0_bsg-49a_left_PN" />
+        </attvalues>
+      </node>
+      <node id="42b_right_PN" label="42b_right_PN">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="42b_right_PN" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="30a_right_OSN_0_otp" label="30a_right_OSN_0_otp">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+          <attvalue for="2" value="30a_right_OSN_0_otp" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="5" value="FruitFlyOdorReceptorModel" />
+        </attvalues>
+      </node>
+      <node id="45b_right_OSN_0_bsg-45b_right_PN" label="45b_right_OSN_0_bsg-45b_right_PN">
+        <attvalues>
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="1100.0" />
+          <attvalue for="16" value="190.0" />
+          <attvalue for="17" value="0.2001" />
+          <attvalue for="5" value="AlphaSynapsePostBiNorm" />
+          <attvalue for="2" value="45b_right_OSN_0_bsg-45b_right_PN" />
+        </attvalues>
+      </node>
+      <node id="83a_left_OSN_0_otp" label="83a_left_OSN_0_otp">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+          <attvalue for="2" value="83a_left_OSN_0_otp" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="5" value="FruitFlyOdorReceptorModel" />
+        </attvalues>
+      </node>
+      <node id="22c_right_PN10" label="22c_right_PN10">
+        <attvalues>
+          <attvalue for="5" value="Port" />
+          <attvalue for="11" value="out" />
+          <attvalue for="12" value="spike" />
+          <attvalue for="2" value="22c_right_PNport" />
+          <attvalue for="13" value="/al/out/spk/10" />
+        </attvalues>
+      </node>
+      <node id="82a_right_OSN_0_bsg" label="82a_right_OSN_0_bsg">
+        <attvalues>
+          <attvalue for="0" value="0.54046209" />
+          <attvalue for="1" value="0.28851804" />
+          <attvalue for="2" value="82a_right_OSN_0_bsg" />
+          <attvalue for="3" value="0.965905" />
+          <attvalue for="4" value="0.01007823" />
+          <attvalue for="5" value="ConnorStevens" />
+          <attvalue for="6" value="0.15587559" />
+        </attvalues>
+      </node>
+      <node id="42a_right_OSN_0_otp" label="42a_right_OSN_0_otp">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+          <attvalue for="2" value="42a_right_OSN_0_otp" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="5" value="FruitFlyOdorReceptorModel" />
+        </attvalues>
+      </node>
+      <node id="85c_left_OSN_0_bsg-85c_left_PN" label="85c_left_OSN_0_bsg-85c_left_PN">
+        <attvalues>
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="1100.0" />
+          <attvalue for="16" value="190.0" />
+          <attvalue for="17" value="0.2001" />
+          <attvalue for="5" value="AlphaSynapsePostBiNorm" />
+          <attvalue for="2" value="85c_left_OSN_0_bsg-85c_left_PN" />
+        </attvalues>
+      </node>
+      <node id="13a_left_OSN_0_bsg-13a_left_PN" label="13a_left_OSN_0_bsg-13a_left_PN">
+        <attvalues>
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="1100.0" />
+          <attvalue for="16" value="190.0" />
+          <attvalue for="17" value="0.2001" />
+          <attvalue for="5" value="AlphaSynapsePostBiNorm" />
+          <attvalue for="2" value="13a_left_OSN_0_bsg-13a_left_PN" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="74a_left_OSN_0_bsg" target="74a_left_OSN_0_bsg-74a_left_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="63a_left_OSN_0_bsg-63a_left_PN" target="63a_left_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="94a_&amp;_94b_left_OSN_0_bsg" target="94a_&amp;_94b_left_OSN_0_bsg-94a_&amp;_94b_left_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="24a_right_OSN_0_bsg" target="24a_right_OSN_0_bsg-24a_right_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="13a_right_OSN_0_bsg-13a_right_PN" target="13a_right_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="74a_right_OSN_0_bsg" target="74a_right_OSN_0_bsg-74a_right_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="35a_left_OSN_0_bsg-35a_left_PN" target="35a_left_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="30a_right_OSN_0_bsg-30a_right_PN" target="30a_right_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="45a_left_OSN_0_bsg" target="45a_left_OSN_0_bsg-45a_left_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="74a_left_OSN_0_bsg-74a_left_PN" target="74a_left_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="22c_left_OSN_0_bsg" target="22c_left_OSN_0_bsg-22c_left_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="35a_left_PN" target="35a_left_PN48">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="1a_right_OSN_0_bsg" target="1a_right_OSN_0_bsg-1a_right_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="30a_left_OSN_0_bsg-30a_left_PN" target="30a_left_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="85c_left_OSN_0_bsg" target="85c_left_OSN_0_bsg-85c_left_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="1a_left_OSN_0_bsg-1a_left_PN" target="1a_left_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="67b_left_OSN_0_bsg-67b_left_PN" target="67b_left_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="24a_left_PN" target="24a_left_PN2">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="47a_&amp;_33b_left_PN" target="47a_&amp;_33b_left_PN24">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="94a_&amp;_94b_left_PN" target="94a_&amp;_94b_left_PN82">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="74a_right_PN" target="74a_right_PN8">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="33a_left_OSN_0_bsg-33a_left_PN" target="33a_left_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="49a_right_PN" target="49a_right_PN74">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="24a_right_PN" target="24a_right_PN68">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="35a_right_OSN_0_bsg-35a_right_PN" target="35a_right_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="94a_&amp;_94b_left_OSN_0_bsg-94a_&amp;_94b_left_PN" target="94a_&amp;_94b_left_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="59a_left_OSN_0_bsg-59a_left_PN" target="59a_left_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="42b_left_OSN_0_bsg-42b_left_PN" target="42b_left_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="59a_right_OSN_0_bsg-59a_right_PN" target="59a_right_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="63a_left_OSN_0_bsg" target="63a_left_OSN_0_bsg-63a_left_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="33a_right_PN" target="33a_right_PN40">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="42a_left_PN" target="42a_left_PN28">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="24a_left_OSN_0_bsg" target="24a_left_OSN_0_bsg-24a_left_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="30a_left_PN" target="30a_left_PN60">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="94a_&amp;_94b_right_OSN_0_bsg-94a_&amp;_94b_right_PN" target="94a_&amp;_94b_right_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="1a_left_OSN_0_bsg" target="1a_left_OSN_0_bsg-1a_left_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="74a_right_OSN_0_bsg-74a_right_PN" target="74a_right_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="22c_right_PN" target="22c_right_PN10">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="1a_right_OSN_0_bsg-1a_right_PN" target="1a_right_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="35a_left_OSN_0_bsg" target="35a_left_OSN_0_bsg-35a_left_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="59a_left_OSN_0_bsg" target="59a_left_OSN_0_bsg-59a_left_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="13a_left_PN" target="13a_left_PN42">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="63a_left_PN" target="63a_left_PN34">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="82a_left_OSN_0_bsg-82a_left_PN" target="82a_left_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="82a_left_PN" target="82a_left_PN36">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="45b_left_OSN_0_bsg-45b_left_PN" target="45b_left_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="35a_right_OSN_0_bsg" target="35a_right_OSN_0_bsg-35a_right_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="59a_right_OSN_0_bsg" target="59a_right_OSN_0_bsg-59a_right_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="42b_left_OSN_0_bsg" target="42b_left_OSN_0_bsg-42b_left_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="47a_&amp;_33b_right_PN" target="47a_&amp;_33b_right_PN66">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="85c_left_PN" target="85c_left_PN38">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="35a_right_PN" target="35a_right_PN22">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="45b_right_OSN_0_bsg" target="45b_right_OSN_0_bsg-45b_right_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="53" source="30a_left_OSN_0_bsg" target="30a_left_OSN_0_bsg-30a_left_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="54" source="49a_left_OSN_0_bsg" target="49a_left_OSN_0_bsg-49a_left_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="55" source="45a_left_OSN_0_bsg-45a_left_PN" target="45a_left_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="56" source="67b_left_OSN_0_bsg" target="67b_left_OSN_0_bsg-67b_left_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="57" source="47a_&amp;_33b_right_OSN_0_bsg-47a_&amp;_33b_right_PN" target="47a_&amp;_33b_right_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="58" source="13a_right_OSN_0_bsg" target="13a_right_OSN_0_bsg-13a_right_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="59" source="30a_right_OSN_0_bsg" target="30a_right_OSN_0_bsg-30a_right_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="60" source="42a_right_OSN_0_bsg-42a_right_PN" target="42a_right_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="61" source="82a_right_PN" target="82a_right_PN70">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="62" source="83a_right_OSN_0_bsg" target="83a_right_OSN_0_bsg-83a_right_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="63" source="49a_right_OSN_0_bsg" target="49a_right_OSN_0_bsg-49a_right_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="64" source="59a_right_PN" target="59a_right_PN4">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="65" source="45b_left_PN" target="45b_left_PN78">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="66" source="42a_right_OSN_0_bsg" target="42a_right_OSN_0_bsg-42a_right_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="67" source="83a_left_OSN_0_bsg" target="83a_left_OSN_0_bsg-83a_left_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="68" source="47a_&amp;_33b_left_OSN_0_bsg-47a_&amp;_33b_left_PN" target="47a_&amp;_33b_left_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="69" source="63a_right_PN" target="63a_right_PN50">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="70" source="33a_left_PN" target="33a_left_PN20">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="71" source="63a_right_OSN_0_bsg" target="63a_right_OSN_0_bsg-63a_right_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="72" source="47a_&amp;_33b_right_OSN_0_bsg" target="47a_&amp;_33b_right_OSN_0_bsg-47a_&amp;_33b_right_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="73" source="59a_left_PN" target="59a_left_PN32">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="74" source="94a_&amp;_94b_right_OSN_0_bsg" target="94a_&amp;_94b_right_OSN_0_bsg-94a_&amp;_94b_right_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="75" source="42a_left_OSN_0_bsg-42a_left_PN" target="42a_left_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="76" source="45a_left_PN" target="45a_left_PN16">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="77" source="33a_right_OSN_0_bsg" target="33a_right_OSN_0_bsg-33a_right_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="78" source="83a_left_OSN_0_bsg-83a_left_PN" target="83a_left_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="79" source="49a_right_OSN_0_bsg-49a_right_PN" target="49a_right_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="80" source="94a_&amp;_94b_right_PN" target="94a_&amp;_94b_right_PN64">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="81" source="24a_left_OSN_0_bsg-24a_left_PN" target="24a_left_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="82" source="47a_&amp;_33b_left_OSN_0_bsg" target="47a_&amp;_33b_left_OSN_0_bsg-47a_&amp;_33b_left_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="83" source="24a_right_OSN_0_bsg-24a_right_PN" target="24a_right_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="84" source="42a_left_OSN_0_bsg" target="42a_left_OSN_0_bsg-42a_left_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="85" source="45a_right_OSN_0_bsg-45a_right_PN" target="45a_right_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="86" source="85c_right_OSN_0_bsg-85c_right_PN" target="85c_right_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="87" source="74a_left_PN" target="74a_left_PN72">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="88" source="67b_right_OSN_0_bsg-67b_right_PN" target="67b_right_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="89" source="83a_left_PN" target="83a_left_PN44">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="90" source="42a_right_PN" target="42a_right_PN46">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="91" source="22c_right_OSN_0_bsg" target="22c_right_OSN_0_bsg-22c_right_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="92" source="82a_left_OSN_0_bsg" target="82a_left_OSN_0_bsg-82a_left_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="93" source="45a_right_PN" target="45a_right_PN58">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="94" source="22c_right_OSN_0_bsg-22c_right_PN" target="22c_right_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="95" source="83a_right_PN" target="83a_right_PN76">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="96" source="83a_right_OSN_0_bsg-83a_right_PN" target="83a_right_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="97" source="67b_right_OSN_0_bsg" target="67b_right_OSN_0_bsg-67b_right_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="98" source="22c_left_PN" target="22c_left_PN30">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="99" source="45a_right_OSN_0_bsg" target="45a_right_OSN_0_bsg-45a_right_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="100" source="85c_right_PN" target="85c_right_PN54">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="101" source="85c_right_OSN_0_bsg" target="85c_right_OSN_0_bsg-85c_right_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="102" source="42b_left_PN" target="42b_left_PN80">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="103" source="42b_right_OSN_0_bsg-42b_right_PN" target="42b_right_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="104" source="42b_right_OSN_0_bsg" target="42b_right_OSN_0_bsg-42b_right_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="105" source="22c_left_OSN_0_bsg-22c_left_PN" target="22c_left_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="106" source="45b_left_OSN_0_bsg" target="45b_left_OSN_0_bsg-45b_left_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="107" source="45b_right_PN" target="45b_right_PN62">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="108" source="1a_right_PN" target="1a_right_PN12">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="109" source="82a_right_OSN_0_bsg-82a_right_PN" target="82a_right_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="110" source="13a_left_OSN_0_bsg" target="13a_left_OSN_0_bsg-13a_left_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="111" source="33a_left_OSN_0_bsg" target="33a_left_OSN_0_bsg-33a_left_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="112" source="33a_right_OSN_0_bsg-33a_right_PN" target="33a_right_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="113" source="13a_right_PN" target="13a_right_PN56">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="114" source="63a_right_OSN_0_bsg-63a_right_PN" target="63a_right_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="115" source="49a_left_PN" target="49a_left_PN6">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="116" source="30a_right_PN" target="30a_right_PN14">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="117" source="67b_right_PN" target="67b_right_PN18">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="118" source="1a_left_PN" target="1a_left_PN0">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="119" source="67b_left_PN" target="67b_left_PN26">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="120" source="49a_left_OSN_0_bsg-49a_left_PN" target="49a_left_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="121" source="42b_right_PN" target="42b_right_PN52">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="122" source="45b_right_OSN_0_bsg-45b_right_PN" target="45b_right_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="123" source="82a_right_OSN_0_bsg" target="82a_right_OSN_0_bsg-82a_right_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="124" source="85c_left_OSN_0_bsg-85c_left_PN" target="85c_left_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="125" source="13a_left_OSN_0_bsg-13a_left_PN" target="13a_left_PN">
+        <attvalues>
+          <attvalue for="18" value="0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
