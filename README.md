@@ -69,6 +69,8 @@ To launch all FFBO servers, simply run the following shell script in `/home/ffbh
     sh run_nlp.sh
     sh run_neuroarch.sh
     sh run_neurokernel.sh
+
+Please go to http://server-ip:10000 and test a query before using FBL.
     
 ### Launching FBL
 To launch FBL, you can run the shell script `/home/ffbh/run_script/run_fbl.sh`. The jupyter lab will be launched at port `10004` by default. Since the port is not exposed by the Docker container, you can do one of the following:
