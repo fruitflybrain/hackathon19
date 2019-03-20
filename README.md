@@ -12,8 +12,11 @@ The Fruit Fly Brain Hackathon 2019 is organized in conjunction with the [Columbi
 
 ## Organizers
 Tingkai Liu, Department of Electrical Engineering, Columbia University
+
 Mehmet Kerem Turkcan, Department of Electrical Engineering, Columbia University
+
 Chung-Heng Yeh, Department of Electrical Engineering, Columbia University
+
 Yiyin Zhou, Department of Electrical Engineering, Columbia University
 
 ## Registration
