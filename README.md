@@ -52,7 +52,7 @@ Running this docker image with GPU support requires [nvidia-docker](https://gith
 
 To launch a Docker container using the image:
 
-    docker run -d --runtime=nvidia --name flybrainlab -p 10000-10002:10000-10002 -p 10003:22 -it fruitflybrain/ffbh19 bash -c "service ssh start; /opt/orientdb/bin/server.sh &"
+    docker run -d --runtime=nvidia --name flybrainlab -p 10000-10002:10000-10002 -p 10003:22 -it fruitflybrain/ffbh19 bash -c "service ssh start; /opt/orientdb/bin/server.sh"
 
 The container will be launched in the background. You can now SSH into it with
 
@@ -95,7 +95,7 @@ Please note that, for FBLClient, you need to use the branch called [`ffbh19`](ht
 
 After installation, you need to the following configuration before starting jupyter lab.
 
-The IP address of our server is 18.209.44.42. Please put this into the field `ip` in `FBLClient.ini` in the `FBLClient` repository and change the `[ID][digits]` field to `0`.
+The IP address of our server is 54.243.17.111. Please put this into the field `ip` in `FBLClient.ini` in the `FBLClient` repository and change the `[ID][digits]` field to `0`.
 
 Finally, launch `jupyter lab`.
 
