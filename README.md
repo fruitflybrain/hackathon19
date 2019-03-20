@@ -88,6 +88,8 @@ To launch FBL, you can run the shell script `/home/ffbh/run_script/run_fbl.sh`. 
 
 
 ## Using Supplied Server
-The IP address of our server is 18.209.44.42. Please put this into the field `ip` in `FBLClient.ini` in the repository https://github.com/FlyBrainLab/FBLClient (Note that you need to use the branch called [`ffbh19`](https://github.com/FlyBrainLab/FBLClient/tree/ffbh19)).
+The IP address of our server is 18.209.44.42. Please put this into the field `ip` in `FBLClient.ini` in the repository https://github.com/FlyBrainLab/FBLClient (Note that you need to use the branch called [`ffbh19`](https://github.com/FlyBrainLab/FBLClient/tree/ffbh19)) and change the `[ID][digits]` field to `0`.
+
+
 
 
