@@ -41,4 +41,49 @@ Wednesday, March 20th, 2019
 
 
 ## Computing Resources
-Participants only need to bring a laptop to the hackathon to fully explore the capacity of the FFBO. We will host the main FFBO service on an Amazon EC2 instance with limited capacity. For attendees interested in installing FFBO on their own machines, or developing new features, all service packages will be available in the form of [Docker](https://www.docker.com/) images. Instructions to install FBL will be provided by March 13, 2019. An Amazon Machine Image will also be provided. We encourage participants to try installing the FBL platform before the hackathon.
+Participants only need to bring a laptop to the hackathon to fully explore the capacity of the FFBO. We will host the main FFBO service on an Amazon EC2 instance with limited capacity. For attendees interested in installing FFBO on their own machines, or developing new features, all service packages will be available in the form of [Docker](https://www.docker.com/) images.
+
+### Docker Image
+Docker image for a complete install of FFBO and FBL is available [HERE](https://hub.docker.com/r/fruitflybrain/ffbh19). You can simply pull the image onto your system:
+    
+    docker pull fruitflybrain/ffbh19
+
+Running this docker image with GPU support requires [nvidia-docker](https://github.com/NVIDIA/nvidia-docker) ([Installation Instruction](https://github.com/nvidia/nvidia-docker/wiki/Installation-(version-2.0))). The image has been tested on Ubuntu 16.04 with nvidia-docker v2.0. An [Amazon Machine Image](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-0221bb3d675af4924) (ami-0221bb3d675af4924 in the US-East-1 region) with Docker and nvidia-docker installed is provided for convience.
+
+To launch a Docker container using the image:
+
+    docker run -d --runtime=nvidia --name flybrainlab -p 10000-10002:10000-10002 -p 10003:22 -it fruitflybrain/ffbh19 bash -c "service ssh start; /opt/orientdb/bin/server.sh &"
+
+The container will be launched in the background. You can now SSH into it with
+
+    ssh -p 10003 ffbh@server-ip
+    
+and the password is Drosophila. For security reason, please change the password after your first login by
+
+    passwd
+    
+### Launching FFBO Servers
+To launch all FFBO servers, simply run the following shell script in `/home/ffbh/run_script` in the following order (we recommand running each script using a tmux session/window):
+
+    sh run_processor.sh
+    sh run_nlp.sh
+    sh run_neuroarch.sh
+    sh run_neurokernel.sh
+    
+### Launching FBL
+To launch FBL, you can run the shell script `/home/ffbh/run_script/run_fbl.sh`. The jupyter lab will be launched at port `10004` by default. Since the port is not exposed by the Docker container, you can do one of the following:
+1. (preferred) Use a SSH tunnel, _i.e_,:
+
+    `ssh -p 10003 -L local_port:localhost:10004 ffbh@server-ip`
+
+   Replace local_port by your choice of port number. You can access the FBL using your browser at http://localhost:local_port.
+
+2. Expose the `10004` port when starting the Docker container, _i.e_,:
+    
+    `docker run -d --runtime=nvidia --name flybrainlab -p 10000-10002:10000-10002 -p 10003:22 -p 10004:10004 -it fruitflybrain/ffbh19 bash -c "service ssh start; /opt/orientdb/bin/server.sh &"`
+    
+   and access FBL using your browser at http://server-ip:10004.
+
+
+
+
