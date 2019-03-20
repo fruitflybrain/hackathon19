@@ -1,0 +1,31 @@
+
+
+.rise-enabled #notebook {
+    background-color: #000;
+}
+
+body.rise-enabled {
+    color: #ddd;
+}
+
+.rise-enabled h1,
+.rise-enabled h2,
+.rise-enabled h3,
+.rise-enabled h4,
+.rise-enabled h5 {
+    color: #fff;
+}
+.rise-enabled div,
+.rise-enabled p,
+.rise-enabled li {
+    color: #ddd;
+}
+
+.present .input {
+    visibility: hidden;
+/*     display: none; */
+}
+
+.present .output_prompt {
+    visibility: hidden;  
+}
