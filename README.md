@@ -27,9 +27,9 @@ Wednesday, March 20th, 2019
 
 | Time | Topic |
 |------|-------|
-| 09:00 AM - 09:10 AM | Introduction to the Fruit Fly Brain Hackathon (Chung-Heng Yeh, Columbia University, USA).|
+| 09:00 AM - 09:10 AM | [Introduction to the Fruit Fly Brain Hackathon (Chung-Heng Yeh, Columbia University, USA).](https://github.com/fruitflybrain/hackathon19/blob/master/Introduction.ipynb)|
 | 09:10 AM - 09:15 AM | Self-introductions by Participants. |
-| 09:15 AM - 09:30 AM | Introduction to FlyBrainLab (Mehmet K. Turkcan, Columbia University, USA).|
+| 09:15 AM - 09:30 AM | [Introduction to FlyBrainLab (Mehmet K. Turkcan, Columbia University, USA).](https://docs.google.com/presentation/d/14z09Kxbo1CAoDz9oR6jNrz_oG72UTXvVp-oUza4kg6k/edit?usp=sharing)|
 | 09:30 AM - 12:30 PM | Hacking: Basic Features of FBL.|
 | 12:30 PM - 01:30 PM | Lunch Break.|
 | 01:30 PM - 01:45 AM | Building Models of Fly Brain Neuropil Using FBL (Yiyin Zhou, Columbia University, USA).|
