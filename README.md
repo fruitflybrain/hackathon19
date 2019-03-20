@@ -63,7 +63,7 @@ and the password is Drosophila. For security reason, please change the password 
     passwd
     
 ### Launching FFBO Servers
-To launch all FFBO servers, simply run the following shell script in `/home/ffbh/run_script` in the following order (we recommand running each script using a tmux session/window):
+To launch all FFBO servers, simply run the following shell script in `/home/ffbh/run_scripts` in the following order (we recommand running each script using a tmux session/window):
 
     sh run_processor.sh
     sh run_nlp.sh
