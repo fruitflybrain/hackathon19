@@ -82,7 +82,7 @@ To launch FBL, you can run the shell script `/home/ffbh/run_script/run_fbl.sh`. 
 
 2. Expose the `10004` port when starting the Docker container, _i.e_,:
     
-    `docker run -d --runtime=nvidia --name flybrainlab -p 10000-10002:10000-10002 -p 10003:22 -p 10004:10004 -it fruitflybrain/ffbh19 bash -c "service ssh start; /opt/orientdb/bin/server.sh &"`
+    `docker run -d --runtime=nvidia --name flybrainlab -p 10000-10002:10000-10002 -p 10003:22 -p 10004:10004 -it fruitflybrain/ffbh19 bash -c "service ssh start; /opt/orientdb/bin/server.sh"`
     
    and access FBL using your browser at http://server-ip:10004.
 
